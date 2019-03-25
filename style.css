@@ -1,0 +1,325 @@
+html {box-sizing: border-box;}
+*,*::before,*::after{box-sizing:inherit;} 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background:white;
+    color: black;
+    border: 1px solid transparent;
+}
+
+header div {
+    color:orangered; 
+    font-size: 50px;
+    float:left;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+  background-color:white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  height: 150px;
+}
+
+#primarynav {
+    display: flex;
+    justify-content:space-evenly;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    height:50px;
+    padding:10px;
+    color:black;
+    font-size:15px;
+    letter-spacing: 1px;
+    margin-top:-40px;
+
+}
+
+.assets {
+    float:right;
+    margin: 50px 0; 
+}
+
+.sell {
+    background:white;
+    color:black;
+    border:0;
+
+}
+
+#headerbuttons {
+    margin-left:300px;
+    align-items: flex-end;
+    padding:10px;
+    
+}
+
+.register {
+    background:white;
+    color:black;
+    border:0;
+    float:left;  
+}
+
+.signin {
+    float:right;
+    background:white;
+    color:black;
+    font-size: 15px;
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 90px;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    color:black;
+    font-size: 15px;
+    font-weight:bolder;
+    margin-bottom:3px;
+
+}
+
+#prices {
+    font-family: 'Abel', sans-serif;
+    color:#585858;
+    font-size: 15px;
+}
+
+#type {
+    font-family: 'Abel', sans-serif;
+    color:#585858;
+    font-size: 15px;
+}
+
+header input {
+    float:left;
+    width: 300px;
+    height: 35px;
+    border-radius:5px;
+    border: 1px solid lightgray;
+    margin: 15px;
+}
+    
+button {
+    background:black;
+    color:white;
+    font-size: 15px;
+    float:left;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top:14px;
+    margin-left:-15px;
+  }
+
+nav {
+  float: left;
+  width: 250px;
+  height: auto;
+  background:white;
+  padding: 20px;
+  margin: 20px;
+  border-radius:5px;
+  border: 1px solid lightgray;
+}
+
+#ship {
+    width: 250px;
+    height:100px;
+    padding-top:30px;
+    padding-top:10;
+ }
+
+#ship select {
+    width: 230px;
+    height: 40px;
+    margin: 8px -12px;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+    list-style-type: none;
+    color:#585858;
+    border-color:#E8E8E8;
+}
+
+#order {
+    font-family: 'Abel', sans-serif;
+    color:#585858;
+    font-size: 15px;
+    flex-wrap: nowrap;
+
+}
+
+.inputs {
+    display: flex;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+    background:white;
+    border: 1px solid transparent;
+}
+
+#location {
+    font-family: 'Abel', sans-serif;
+    color:#585858;
+    font-size: 15px;
+    flex-wrap: nowrap;
+}
+
+#writeloc {
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    font-family: 'Abel', sans-serif;
+    color:#585858;
+    border-radius:5px;
+    background-color: transparent;
+    border:1px solid #E8E8E8;
+    margin-top:10px;
+}
+
+#shipping .inputs {
+    font-size:13px;
+}
+
+#cat li {
+margin-left:-25px; 
+font-size: 13px;
+font-family: 'Abel', sans-serif;
+color:#585858;
+}
+
+#cat p {
+    margin-bottom:-15px;
+}
+
+#spec {
+    background:#ffdb99;
+    font-size: 15px;
+    height: 70px;
+    width: 210px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-right: 90px;
+}
+
+#spec .inputs {
+margin-top:4px;
+}
+
+
+*{box-sizing:border-box;}
+
+body {
+    font-family:'Abel', sans-serif;
+    color:#585858;
+    
+}
+.item {
+	border: 1px solid transparent;
+	width:210px;
+	text-align:center;
+	padding:5px;
+    margin:10px;
+    height:350px;
+    margin-top:100px;
+
+    
+}
+.name {
+    font-family: 'Abel', sans-serif;
+    color:#585858;
+    font-size: 15px;
+    text-align:left;
+    margin-top:0px;
+    font-weight:normal;
+	
+}
+.desc {
+    font-family: 'Abel', sans-serif;
+    color:#A0A0A0;
+    font-size: 15px;
+    text-align:left;
+    margin-top:0px;
+    font-weight:normal;
+    
+}
+
+
+.price {
+    font-family: Verdana;
+    color:black;
+    font-size: 18px;
+    text-align:left;
+    margin-top:0;   
+    font-weight:bold;
+
+}
+
+#itemcontainer {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+footer {
+    background:#FFFFE0;
+    height:600px;
+    margin-top:200px;
+    border-top:1px solid lightgray;
+}
+
+footer p {
+    color:#585858;
+    display:center;  
+}
+
+#foot {
+    padding-left:400px;
+    margin-top:40px;
+    padding-top:30px;
+}
+
+#footersearch {
+    padding-left:400px;
+    margin-top:40px;
+}
+
+footer input {
+    float:left;
+    height: 35px;
+    width:300px;
+    border-radius:5px;
+    border: 1px solid lightgray;
+    margin: 15px;  
+}
+
+#footerlis {
+    display: flex;
+    margin:350px;
+    
+}
+
+.lis{
+   border:1px solid transparent;
+   margin:10px;
+   margin-top:-150px;
+   display: flex;
+}
+
